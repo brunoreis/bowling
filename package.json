@@ -1,0 +1,22 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "Uncle Bob's bowling game ",
+  "main": "index.js",
+  "author": "Bruno Reis <bruno.p.reis@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
